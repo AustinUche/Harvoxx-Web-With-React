@@ -8,22 +8,22 @@ const Header = () => {
           HARVOXX <span className="text-[#FDC141]">TECH HUB</span>
         </h1>
         <ul className="flex m-4">
-          <li className="list-none flex justify-between items-center gap-10">
-            <a href="home" className="text-xl text-slate-50">
+          <li className="list-none flex justify-between items-center gap-7">
+            <a href="home" className="text-base text-slate-50">
               Home
             </a>
-            <a href="about" className="text-xl text-slate-400">
+            <a href="about" className="text-base text-slate-400">
               About Us
             </a>
-            <a href="services" className="text-xl text-slate-400">
+            <a href="services" className="text-base text-slate-400">
               Services
             </a>
-            <a href="contact" className="text-xl text-slate-400">
+            <a href="contact" className="text-base text-slate-400">
               Contact Us
             </a>
             <a
               href="get-started"
-              className="rounded-full border-[3px] text-slate-50 px-8 py-3 border-[#fdc141]"
+              className="rounded-full border-[2px] text-slate-50 px-6 py-1 border-[#fdc141]"
             >
               Get Started
             </a>
