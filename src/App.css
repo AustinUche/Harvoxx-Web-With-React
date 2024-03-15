@@ -4,3 +4,18 @@
   box-sizing:border-box;
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffa500;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
