@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="lg:w-full bg-[#213b52]">
-      <div className="w-4/5 flex justify-between items-center m-auto">
+      <div className="w-[85%] flex justify-between items-center m-auto">
         <h1 className="text-3xl font-bold tracking-wide text-[#FFFFFF]">
           HARVOXX <span className="text-[#FDC141]">TECH HUB</span>
         </h1>
@@ -23,7 +23,7 @@ const Header = () => {
             </a>
             <a
               href="get-started"
-              className="rounded-full border-2 text-slate-50 px-6 py-3 border-[#fdc141]"
+              className="rounded-full border-[3px] text-slate-50 px-8 py-3 border-[#fdc141]"
             >
               Get Started
             </a>
