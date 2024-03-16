@@ -22,7 +22,7 @@ const Hero = () => {
           </p>
           <a
             href="getstarted"
-            className="rounded-full border-[3px] text-[20px] font-medium py-2 bg-orange w-[50%] lg:w-[30%] text-center border-orange text-background hover:bg-transparent hover:text-h1Color"
+            className="rounded-full border-[3px] text-[20px] font-medium py-2 bg-orange w-[50%] lg:w-[30%] text-center border-orange text-background hover:bg-transparent hover:text-h1Color transition duration-500 ease-in-out"
           >
             Get Started
           </a>
