@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="lg:w-full bg-background max-w-full">
       <div className="w-full lg:w-[85%] flex justify-between items-center m-auto">
-        <h1 className="hidden lg:block text-3xl font-bold tracking-wide text-white">
+        <h1 className="hidden lg:block text-3xl font-bold tracking-wide text-[white] cursor-pointer">
           HARVOXX <span className="text-orange">TECH HUB</span>
         </h1>
         <ul className="hidden lg:flex m-4">
@@ -24,7 +24,7 @@ const Header = () => {
             </a>
             <a
               href="get-started"
-              className="rounded-full border-[2px] text-slate-50 px-6 py-1 border-orange"
+              className="rounded-full border-[2px] text-slate-50 px-6 py-1 border-orange hover:bg-orange transition duration-500 ease-in-out"
             >
               Get Started
             </a>
