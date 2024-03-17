@@ -3,7 +3,7 @@ import { Service } from "./data";
 
 const Services = () => {
   return (
-    <div className="w-full lg:w-full bg-gradWhite1">
+    <div className="w-full lg:w-full bg-gradient-to-r from-[white] to-gradWhite1">
       <div className="w-[95%] lg:w-[80%] flex flex-col lg:flex-row flex-wrap m-auto py-10">
         <h2 className="text-3xl text-background text-center uppercase pb-[50px] w-full font-bold relative before:content-[''] before:absolute before:h-[1px] before:w-[120px] before:top-[60%] before:left-[35%] lg:before:left-[45%] before:bg-slate-400 before:mt-[10px] after:content-[''] after:absolute after:bg-orange after:h-[3px] after:w-10 after:top-[60%] after:left-[47%] lg:after:left-[49%] after:mt-[9px]">
           Our Services
