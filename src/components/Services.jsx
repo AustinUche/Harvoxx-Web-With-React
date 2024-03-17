@@ -15,7 +15,7 @@ const Services = () => {
           graphic designers) puts in their very beat to ensure that our services
           delivery is top-notch
         </p>
-        <div className="w-full m-auto lg:m-0 flex flex-row flex-wrap gap-5 group overflow-hidden cursor-pointer transition duration-500">
+        <div className="w-full m-auto lg:m-0 flex flex-row flex-wrap gap-2 group overflow-hidden cursor-pointer transition duration-500">
           {Service.map((item) => (
             <BoxContainer key={item.id} item={item} />
           ))}
