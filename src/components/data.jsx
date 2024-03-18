@@ -108,27 +108,30 @@ export const Service = [
   },
 ];
 
-export const ContactCards = [
+export const ContactCard1 = [
   {
     id: "address",
     label: "Our Address",
     icon: <FiMapPin />,
-    content1: "Elzazi complex, Opposite Westharm petrol station along gbalajam/Akpajo road, woji ( Odili Road, Port-Harcourt )"
-  },
-  {
-    id: "email",
-    label: "Email Us",
-    icon: <MdOutlineMail />,
-    link1: "Hello@harvoxx.com",
-    link2: "Help@harvoxx.com",
-    link3: "Admin@harvoxx.com"
-  },
-  {
-    id: "contact",
-    label: "Contact Us",
-    icon: <FiPhoneCall />,
-    content1: "+2349011684637",
-    content2: "+2349065308024",
-    content3: "+2349030643105"
+    content: "Elzazi complex, Opposite Westharm petrol station along gbalajam/Akpajo road, woji ( Odili Road, Port-Harcourt )"
   }
 ]
+
+export const ContactCard2 = [
+  {
+    id1: "email",
+    label1: "Email Us",
+    icon1: <MdOutlineMail />,
+    link1: "Hello@harvoxx.com",
+    link2: "Help@harvoxx.com",
+    link3: "Admin@harvoxx.com",
+  },
+  {
+    id1: "contact",
+    label1: "Contact Us",
+    icon1: <FiPhoneCall />,
+    content1: "+2349011684637",
+    content2: "+2349065308024",
+    content3: "+2349030643105",
+  }
+];
