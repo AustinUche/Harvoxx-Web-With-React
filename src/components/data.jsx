@@ -1,6 +1,8 @@
 import { IoReceiptOutline, IoShieldOutline } from "react-icons/io5"
 import { BiCube, BiImages } from "react-icons/bi"
-import {FaArrowRight} from "react-icons/fa"
+import { FaArrowRight, FaMapMarkerAlt } from "react-icons/fa"
+import { MdOutlineMail } from "react-icons/md"
+import {FiMapPin, FiPhoneCall} from "react-icons/fi"
 import service1 from "../images/service1.jpg"
 import service2 from "../images/service2.jpg";
 import service3 from "../images/service3.jpg"
@@ -105,3 +107,28 @@ export const Service = [
     read: "READ MORE",
   },
 ];
+
+export const ContactCards = [
+  {
+    id: "address",
+    label: "Our Address",
+    icon: <FiMapPin />,
+    content1: "Elzazi complex, Opposite Westharm petrol station along gbalajam/Akpajo road, woji ( Odili Road, Port-Harcourt )"
+  },
+  {
+    id: "email",
+    label: "Email Us",
+    icon: <MdOutlineMail />,
+    link1: "Hello@harvoxx.com",
+    link2: "Help@harvoxx.com",
+    link3: "Admin@harvoxx.com"
+  },
+  {
+    id: "contact",
+    label: "Contact Us",
+    icon: <FiPhoneCall />,
+    content1: "+2349011684637",
+    content2: "+2349065308024",
+    content3: "+2349030643105"
+  }
+]
