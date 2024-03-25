@@ -51,7 +51,7 @@ const Contact = () => {
           </form>
           <a
             href="send"
-            className="border-solid border-[3px] border-orange p-[14px_30px] no-underline text-[14px] font-bold bg-orange cursor-pointer mb-4"
+            className="border-solid border-[3px] border-orange p-[10px_60px] no-underline text-[14px] font-bold bg-orange cursor-pointer mb-4"
           >
             send
           </a>
