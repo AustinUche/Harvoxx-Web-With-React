@@ -1,6 +1,6 @@
 import { IoReceiptOutline, IoShieldOutline } from "react-icons/io5"
 import { BiCube, BiImages } from "react-icons/bi"
-import { FaArrowRight, FaMapMarkerAlt } from "react-icons/fa"
+import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md"
 import {FiMapPin, FiPhoneCall} from "react-icons/fi"
 import service1 from "../images/service1.jpg"
